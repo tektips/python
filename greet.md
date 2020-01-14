@@ -1,16 +1,29 @@
-# greet.py
+
+## Example One - greet.py
 
 def greet(name):
-	"""This function greets to
-	the person passed in as
-	parameter"""
+	
+> This function calls the greet method and and displays the name passed in the method
+	
 	print("Hello, " + name + ". Good morning dude!")
 	
+ greet("Mat") 
 
-greet("Mat")
+_Hello, **Mat.** Good morning dude_
 
-  Hello, Mat. Good morning dude! 
 
-## If we intend the greet method, we get the below errors ##
+## Example Two 
 
-IndentationError: unindent does not match any outer indentation level
+> If we intend the greet method, we get the below errors  
+
+def greet(name):
+	
+> This function calls the greet method and and displays the name passed in the method
+	
+	print("Hello, " + name + ". Good morning dude!")
+	
+     __greet("Mat")__ 
+
+
+
+*IndentationError: unindent does not match any outer indentation level*
